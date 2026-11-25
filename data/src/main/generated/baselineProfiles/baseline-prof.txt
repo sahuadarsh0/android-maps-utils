@@ -1,6 +1,6 @@
 PLcom/google/maps/android/data/Feature;-><init>(Lcom/google/maps/android/data/Geometry;Ljava/lang/String;Ljava/util/Map;)V
 PLcom/google/maps/android/data/Feature;->getGeometry()Lcom/google/maps/android/data/Geometry;
-PLcom/google/maps/android/data/Feature;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+HPLcom/google/maps/android/data/Feature;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 PLcom/google/maps/android/data/Feature;->getPropertyKeys()Ljava/lang/Iterable;
 PLcom/google/maps/android/data/Feature;->hasProperty(Ljava/lang/String;)Z
 PLcom/google/maps/android/data/Layer;-><init>()V
@@ -190,10 +190,10 @@ PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->access$parseFeat
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->access$readTextBounded(Ljava/io/InputStream;J)Ljava/lang/String;
 HPLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->checkStructuralDepth(Ljava/lang/String;I)V
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseCoordinates(Ljava/util/List;)Lcom/google/maps/android/data/parser/geojson/Coordinates;
-PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseFeature(Lkotlinx/serialization/json/JsonElement;)Lcom/google/maps/android/data/parser/geojson/GeoJsonFeature;
+HPLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseFeature(Lkotlinx/serialization/json/JsonElement;)Lcom/google/maps/android/data/parser/geojson/GeoJsonFeature;
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseFeatureCollection(Lkotlinx/serialization/json/JsonElement;)Lcom/google/maps/android/data/parser/geojson/GeoJsonFeatureCollection;
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseGeometry$default(Lkotlinx/serialization/json/JsonElement;IILjava/lang/Object;)Lcom/google/maps/android/data/parser/geojson/GeoJsonGeometry;
-HPLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseGeometry(Lkotlinx/serialization/json/JsonElement;I)Lcom/google/maps/android/data/parser/geojson/GeoJsonGeometry;
+PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseGeometry(Lkotlinx/serialization/json/JsonElement;I)Lcom/google/maps/android/data/parser/geojson/GeoJsonGeometry;
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parseLineString(Ljava/util/List;)Ljava/util/List;
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parsePoint(Ljava/util/List;)Lcom/google/maps/android/data/parser/geojson/Coordinates;
 PLcom/google/maps/android/data/parser/geojson/GeoJsonParserKt;->parsePolygon(Ljava/util/List;)Ljava/util/List;
@@ -629,6 +629,7 @@ PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->createPolyline
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->getMarkerCollection$data()Lcom/google/maps/android/collections/MarkerManager$Collection;
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->getPolygonCollection$data()Lcom/google/maps/android/collections/PolygonManager$Collection;
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->getPolylineCollection$data()Lcom/google/maps/android/collections/PolylineManager$Collection;
+PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->hueFromColor(I)F
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer;->removeFeature(Lcom/google/maps/android/data/renderer/model/Feature;)V
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer$$ExternalSyntheticLambda0;-><init>()V
 PLcom/google/maps/android/data/renderer/mapview/MapViewRenderer$Companion;-><init>()V

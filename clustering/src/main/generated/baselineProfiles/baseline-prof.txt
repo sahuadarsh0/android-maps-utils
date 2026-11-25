@@ -35,7 +35,7 @@ PLcom/google/maps/android/clustering/algo/AbstractAlgorithm;->unlock()V
 PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;-><clinit>()V
 PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;-><init>()V
 PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->access$getPROJECTION$cp()Lcom/google/maps/android/projection/SphericalMercatorProjection;
-HPLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->addItem(Lcom/google/maps/android/clustering/ClusterItem;)Z
+PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->addItem(Lcom/google/maps/android/clustering/ClusterItem;)Z
 PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->addItems(Ljava/util/Collection;)Z
 PLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->createBoundsFromSpan(Lcom/google/maps/android/geometry/Point;D)Lcom/google/maps/android/geometry/Bounds;
 HPLcom/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm;->distanceSquared(Lcom/google/maps/android/geometry/Point;Lcom/google/maps/android/geometry/Point;)D
@@ -192,6 +192,6 @@ HPLcom/google/maps/android/quadtree/PointQuadTree;->add(Lcom/google/maps/android
 HPLcom/google/maps/android/quadtree/PointQuadTree;->insert(DDLcom/google/maps/android/quadtree/PointQuadTree$Item;)V
 PLcom/google/maps/android/quadtree/PointQuadTree;->search(Lcom/google/maps/android/geometry/Bounds;)Ljava/util/Collection;
 PLcom/google/maps/android/quadtree/PointQuadTree;->search(Lcom/google/maps/android/geometry/Bounds;Ljava/util/Collection;)V
-HPLcom/google/maps/android/quadtree/PointQuadTree;->split()V
+PLcom/google/maps/android/quadtree/PointQuadTree;->split()V
 PLcom/google/maps/android/quadtree/PointQuadTree$Companion;-><init>()V
 PLcom/google/maps/android/quadtree/PointQuadTree$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
